@@ -33,11 +33,11 @@ This worker performs two main functions:
 
 ### Environment Variables
 
-Set these in your Cloudflare Worker settings or `.dev.vars` file:
+Set these in your Cloudflare Worker settings or `.dev.vars` file for local development:
 
 - `CF_ACCOUNT_ID`: Your Cloudflare account ID
 - `CF_LIST_ID`: The ID of the managed IP list
-- `CF_API_TOKEN`: Cloudflare API token with permissions to read lists
+- `CF_API_TOKEN`: Cloudflare API token with permissions to read lists (Upload to secrets)
 
 ### KV Namespace
 
